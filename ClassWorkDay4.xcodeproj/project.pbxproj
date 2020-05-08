@@ -13,6 +13,7 @@
 		01E2193424649A8A00E9B22C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E2193324649A8A00E9B22C /* Assets.xcassets */; };
 		01E2193724649A8B00E9B22C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E2193624649A8B00E9B22C /* Preview Assets.xcassets */; };
 		01E2193A24649A8B00E9B22C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E2193824649A8B00E9B22C /* LaunchScreen.storyboard */; };
+		01E21944246588D800E9B22C /* StepperClassWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E21943246588D800E9B22C /* StepperClassWork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		01E2193624649A8B00E9B22C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		01E2193924649A8B00E9B22C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01E2193B24649A8B00E9B22C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E21943246588D800E9B22C /* StepperClassWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperClassWork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		01E2192124649A8800E9B22C = {
 			isa = PBXGroup;
 			children = (
+				01E219422465889E00E9B22C /* ClassWork10 */,
 				01E2192C24649A8800E9B22C /* ClassWorkDay4 */,
 				01E2192B24649A8800E9B22C /* Products */,
 			);
@@ -73,6 +76,14 @@
 				01E2193624649A8B00E9B22C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01E219422465889E00E9B22C /* ClassWork10 */ = {
+			isa = PBXGroup;
+			children = (
+				01E21943246588D800E9B22C /* StepperClassWork.swift */,
+			);
+			path = ClassWork10;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01E2192E24649A8800E9B22C /* AppDelegate.swift in Sources */,
+				01E21944246588D800E9B22C /* StepperClassWork.swift in Sources */,
 				01E2193024649A8800E9B22C /* SceneDelegate.swift in Sources */,
 				01E2193224649A8800E9B22C /* ContentView.swift in Sources */,
 			);
